@@ -4,8 +4,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Frontent Mentor](https://www.frontendmentor.io/profile/kanyshaiosmonova)
-- Live Site URL: [QR-Code-component](https://kanyshaiosmonova.github.io/Frontend-Mentor-Challenges/QR-Code-component/index.html)
+- Solution URL: [Frontent Mentor](https://www.frontendmentor.io/solutions/qrcode-component-I6GSlLkkD)
+- Github Pages: [QR-Code-component](https://kanyshaiosmonova.github.io/Frontend-Mentor-Challenges/QR-Code-component/index.html)
 
 ## My process
 
@@ -32,7 +32,7 @@ I actively used CSS variables and media queries. This time I've learnt it for su
 ## Author
 
 - Medium - [kanyshai_osmonova](https://medium.com/@kanyshai_osmonova)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@kanyshaiosmonova](https://www.frontendmentor.io/profile/kanyshaiosmonova)
 - Twitter - [@KaniOsmonova](https://twitter.com/Kaniosmonova)
 
 
