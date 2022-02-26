@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --soft-blue : hsl(215, 51%, 70%);
+    --cyan : hsl(178, 100%, 50%);
+    --very-dark-blue-mainBG : hsl(217, 54%, 11%);;
+    --very-dark-blue-cardBG: hsl(216, 50%, 16%);
+    --very-dark-blue-line: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--very-dark-blue-mainBG);
+    padding: 1.25rem;
+} 
+.container {
+    padding: 1.25rem;
+    border-radius: 0.5rem;
+    background-color: var(--very-dark-blue-cardBG);
+}
+img {
+    max-width: 100%;
+}
+.container .main-image {
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.container .main-image div {
+    position: absolute;
+    top: 0;
+    background-color: hsl(178, 100%,50%,60%);
+    width: 100%;
+    height: calc(100% - 4px);
+    z-index: 999;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+.container .main-image div:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+.container .main-image div img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+li {
+    list-style-type: none;
+}
+p {
+    font-size: 18px;
+    color: var(--soft-blue);
+}
+h2 {
+    margin: 1rem 0.5rem 0.5rem 0;
+    color: var(--white)
+}
+h2:hover {
+    color:var(--cyan);
+    cursor: pointer;
+}
+span{
+    color: white;
+    font-weight: 400;
+}
+span:hover {
+    color:var(--cyan);
+    cursor: pointer;
+}
+
+.container ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+    border-bottom: 1px solid var(--very-dark-blue-line);
+    margin-bottom: 1rem;
+}
+.container ul li:first-child {
+    color: var(--cyan);
+}
+.container ul li {
+    display: flex;
+    align-items: center;
+}
+.container ul li img {
+    margin-left: 0.5rem;
+}
+.container .avatar {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-top: 2 rem;
+}
+.container .avatar img {
+    width: 2em;
+    border-radius: 50%;
+    outline: 2px solid var(--white);
+    margin-right: 1.5em;
+
+}
+.attribution {
+   font-size: 16px; 
+   text-align: center; 
+   margin: 1.5rem;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+@media (min-width: 500px){
+    .container {
+        width:450px;
+        margin:0 auto 1rem;
+    }
+}
