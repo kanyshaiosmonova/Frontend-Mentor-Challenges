@@ -4,7 +4,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/nftpreview-card-component-with-htmlcss-C4nqBq0wy)
 - - Github Pages: [QR-Code-component](https://kanyshaiosmonova.github.io/Frontend-Mentor-Challenges/nft-preview-card-component/index.html)
 
 
