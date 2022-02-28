@@ -1,11 +1,11 @@
 # Frontend Mentor - Profile Card Component
 
 ## Welcome! 👋
-This is a solution to the [Profile Card Component challenge on Frontend Mentor]
+This is a solution to the Profile Card Component challenge on Frontend Mentor
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj/hub/order-summary-component-3A9gxyRCS)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ/hub/profile-card-component-DlKuYRaH5)
 - Github Pages: [Profile Card Component ](https://kanyshaiosmonova.github.io/Frontend-Mentor-Challenges/profile-card-component/index.html)
 
 
