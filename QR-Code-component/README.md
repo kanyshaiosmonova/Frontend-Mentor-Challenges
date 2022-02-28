@@ -1,6 +1,7 @@
 # Frontend Mentor - QR code component solution
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the QR code component challenge on Frontend Mentor.
+Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ### Links
 
@@ -40,3 +41,12 @@ I actively used CSS variables and media queries. This time I've learnt it for su
 ## Acknowledgments
 
 I've got inspiration from Thomas Sankara's solution on his [Youtube channel](https://www.youtube.com/watch?v=JFyMWwOxHYM). Thanks to him I've learnt some new things and solved this challenge faster
+
+## The challenge
+
+I tried to build out this order summary card component and get it looking as close to the design as possible.
+
+## Got feedback for me?
+
+I love receiving feedback! I'm always looking to improve my coding skills. So if you have anything you'd like to mention, please email kanyshai.osmonova.kk@gmail.com
+
