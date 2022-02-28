@@ -52,4 +52,4 @@ I tried to build out this order summary card component and get it looking as clo
 
 ## Got feedback for me?
 
-I love receiving feedback! I'm always looking to improve my coding skills. So if you have anything you'd like to mention, please email [kanyshai.osmonova.kk@gmail.com](@mailto:kanyshai.osmonova.kk@gmail.com)
+I love receiving feedback! I'm always looking to improve my coding skills. So if you have anything you'd like to mention, please email kanyshai.osmonova.kk@gmail.com
