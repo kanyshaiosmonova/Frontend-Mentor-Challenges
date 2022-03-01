@@ -16,24 +16,25 @@
  }
  .container {
      display: flex;
-     justify-content: center;
-     align-items: center;
-     border: 1px solid ;
-     text-align: center;
-     padding: auto;
+     border: 1px solid;
+     line-height: 1.5rem;
+     max-width: 350px;
+     border-radius: 15px;
  }
  .top-container {
     background-color: var(--bright-orange);
+
  }
  .middle-container {
-background-color: var(--dark-cyan)
+    background-color: var(--dark-cyan)
  }
  .bottom-container {
-background-color: var(--very-dark-cyan);
+    -color: var(--very-dark-cyan);
  }
  .top-container, .middle-container, .bottom-container {
     border-color: inherit;
     box-shadow: inherit;
+    margin: auto;
 }
 .btn {
     background-color: var(--very-light-gray);
