@@ -1,6 +1,7 @@
 # Frontend Mentor - NFT preview card component solution
 
-This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the NFT preview card component challenge on Frontend Mentor. 
+Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ### Links
 
@@ -47,3 +48,8 @@ Proud of this CSS code
 
 I've got inspiration from Thomas Sankara's solution on his [Youtube channel](https://www.youtube.com/watch?v=9bGbykdR4T8. Thanks to him I've learnt some new things and solved this challenge faster
 
+I tried to build out this order summary card component and get it looking as close to the design as possible.
+
+## Got feedback for me?
+
+I love receiving feedback! I'm always looking to improve my coding skills. So if you have anything you'd like to mention, please email kanyshai.osmonova.kk@gmail.com
