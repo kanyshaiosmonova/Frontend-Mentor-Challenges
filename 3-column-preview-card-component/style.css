@@ -1,102 +1,126 @@
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
 :root {
-    --bright-orange: hsl(31, 77%, 52%);
-    --dark-cyan: hsl(184, 100%, 22%);
-    --very-dark-cyan: hsl(179, 100%, 13%);
-    --transparent-white: hsla(0, 0%, 100%, 0.75);
-    --very-light-gray: hsl(0, 0%, 95%);
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
 }
- body{
-     font-family: 'Lexend Deca', sans-serif;
-     background-color: var(--very-light-gray);
- }
- button {
-    font-family: 'Lexend Deca', sans-serif;
- }
- h1 {
-    font-family: 'Big Shoulders Display', cursive;
-    color: var(--very-light-gray);
-    font-size: 30px;
-    margin-bottom: 20px;
- }
- p {
-    font-size: 15px;
-    color: var(--transparent-white);
-    line-height: 1.6;
- }
- .btn {
-    border-radius: 30px;
-    border: 2px solid #fff;
-    background-color: #fff;
-    padding: 10px 20px;
-    cursor: pointer;
-    transition: all 0.4s ease-in-out;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
- .top-container {
-    background-color: var(--bright-orange);
-    color: #fff;
-    border-radius: 10px 10px 0 0;
- }
- .top-container .btn {
-     color: var(--bright-orange);
- }
- .middle-container {
-    background-color: var(--dark-cyan);
-    color: #fff;
- }
- .middle-container .btn {
-     color: var(--very-dark-cyan);
- }
- .bottom-container {
-    background-color: var(--very-dark-cyan);
-    color: #fff;
-    border-radius: 0 0 10px 10px;
- }
- .bottom-container .btn {
-     color: var(--very-dark-cyan);
- }
- .btn:hover {
-    background-color: transparent;
-    color: #fff;
+
+body,
+button {
+  font-family: "Lexend Deca", sans-serif;
 }
- .container {
-     padding: 20px;
- }
- .card {
-     padding: 30px;
- }
- .card img {
-     margin-bottom: 25px;
- }
- .card p {
-    margin-bottom: 30px;
- }
- .attribution { 
-     font-size: 11px; 
-     text-align: center;
+
+h1 {
+  font-family: "Big Shoulders Display", sans-serif;
+  text-transform: uppercase;
+  font-size: 30px;
 }
+
+p {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.btn {
+  background-color: #fff;
+  border: 2px solid #fff;
+  border-radius: 30px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.top-container {
+  background-color: var(--bright-orange);
+  color: #fff;
+  border-radius: 10px 10px 0 0;
+}
+
+.top-container .btn {
+  color: var(--bright-orange);
+}
+
+.middle-container {
+  background-color: var(--dark-cyan);
+  color: #fff;
+}
+
+.middle-container .btn {
+  color: var(--dark-cyan);
+}
+
+.bottom-container {
+  background-color: var(--very-dark-cyan);
+  color: #fff;
+  border-radius: 0 0 10px 10px;
+}
+
+.bottom-container .btn {
+  color: var(--very-dark-cyan);
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: #fff;
+}
+
+.container {
+  padding: 20px;
+}
+
+.card {
+  padding: 30px;
+}
+
+.card img {
+  margin-bottom: 25px;
+}
+
+.card h1 {
+  margin-bottom: 20px;
+}
+
+.card p {
+  margin-bottom: 30px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
 .attribution a {
-    color: hsl(228, 45%, 44%); 
+  color: hsl(228, 45%, 44%);
 }
-@media (min-width:992px) {
-    .container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 100vh;
-        max-width: 900vh;
-        margin: auto;
-    }
-    .top-container {
-        border-radius: 10px 0 0 10px; 
-    }
-    .bottom-container {
-        border-radius: 0 10px 10px 0;
-    }
-    .card {
-        padding: 45px;
-    }
-    .card p {
-        margin-bottom: 80px;
-    }
+
+@media (min-width: 992px) {
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    max-width: 900px;
+    margin: auto;
+  }
+
+  .bright-orange {
+    border-radius: 10px 0 0 10px;
+  }
+
+  .very-dark-cyan {
+    border-radius: 0 10px 10px 0;
+  }
+
+  .card {
+    padding: 45px;
+  }
+
+  .card p {
+    margin-bottom: 80px;
+  }
 }
