@@ -11,62 +11,62 @@
     --transparent-white: hsla(0, 0%, 100%, 0.75);
     --very-light-gray: hsl(0, 0%, 95%);
 }
- body {
+ body, button {
      font-size: 15px;
+     font-family: 'Lexend Deca', sans-serif;
  }
  .container {
-     display: flex;
-     border: 1px solid;
-     line-height: 1.5rem;
-     max-width: 350px;
-     border-radius: 15px;
+     padding: 20px;
  }
- .top-container {
-    background-color: var(--bright-orange);
-
+ .card {
+     padding: 30px;
  }
- .middle-container {
-    background-color: var(--dark-cyan)
+ .card img {
+     margin-bottom: 25px;
  }
- .bottom-container {
-    -color: var(--very-dark-cyan);
- }
- .top-container, .middle-container, .bottom-container {
-    border-color: inherit;
-    box-shadow: inherit;
-    margin: auto;
-}
-.btn {
-    background-color: var(--very-light-gray);
-    border-radius: 15px;
-    border-width: 3px;
-    border-color: inherit;
-    padding: 5px 12px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
-}
-.btn:hover {
-    background-color: inherit;
-    border-color: var(--very-light-gray);
-    opacity: 1;
-}
-.btn-bright-orange {
-    color: var(--bright-orange);
-}
-.btn-dark-cyan {
-    color: var(--dark-cyan);
-}
-.btn-very-dark-cyan {
-    color: var(--very-dark-cyan);
-}
-h1 {
+ .card h1 {
     font-family: 'Big Shoulders Display', cursive;
     color: var(--very-light-gray);
-}
-p {
-    font-family: 'Lexend Deca', sans-serif;
+    margin-bottom: 20px;
+ }
+ .card p {
     color: var(--transparent-white);
+    margin-bottom: 30px;
+    line-height: 1.6;
+ }
+ 
+ .top-container {
+    background-color: var(--bright-orange);
+    border-radius: 10px 10px 0 0;
+
+ }
+ .top-container .btn {
+     color: var(--bright-orange);
+ }
+ .middle-container {
+    background-color: var(--dark-cyan);
+ }
+ .middle-container .btn {
+     color: var(--very-dark-cyan);
+ }
+ .bottom-container {
+    background-color: var(--very-dark-cyan);
+    border-radius: 0 0 10px 10px;
+ }
+ .bottom-container .btn {
+     color: var(--very-dark-cyan);
+ }
+.btn {
+    border-radius: 30px;
+    border: 2px solid #fff;
+    background-color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+.btn:hover {
+    background-color: transparent;
+    color: #fff;
 }
  .attribution { 
      font-size: 11px; 
