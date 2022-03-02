@@ -11,52 +11,25 @@
     --transparent-white: hsla(0, 0%, 100%, 0.75);
     --very-light-gray: hsl(0, 0%, 95%);
 }
- body, button {
-     font-size: 15px;
+ body{
      font-family: 'Lexend Deca', sans-serif;
+     background-color: var(--very-light-gray);
  }
- .container {
-     padding: 20px;
+ button {
+    font-family: 'Lexend Deca', sans-serif;
  }
- .card {
-     padding: 30px;
- }
- .card img {
-     margin-bottom: 25px;
- }
- .card h1 {
+ h1 {
     font-family: 'Big Shoulders Display', cursive;
     color: var(--very-light-gray);
+    font-size: 30px;
     margin-bottom: 20px;
  }
- .card p {
+ p {
+    font-size: 15px;
     color: var(--transparent-white);
-    margin-bottom: 30px;
     line-height: 1.6;
  }
- 
- .top-container {
-    background-color: var(--bright-orange);
-    border-radius: 10px 10px 0 0;
-
- }
- .top-container .btn {
-     color: var(--bright-orange);
- }
- .middle-container {
-    background-color: var(--dark-cyan);
- }
- .middle-container .btn {
-     color: var(--very-dark-cyan);
- }
- .bottom-container {
-    background-color: var(--very-dark-cyan);
-    border-radius: 0 0 10px 10px;
- }
- .bottom-container .btn {
-     color: var(--very-dark-cyan);
- }
-.btn {
+ .btn {
     border-radius: 30px;
     border: 2px solid #fff;
     background-color: #fff;
@@ -64,14 +37,72 @@
     cursor: pointer;
     transition: all 0.4s ease-in-out;
 }
-.btn:hover {
+ .top-container {
+    background-color: var(--bright-orange);
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+ }
+ .top-container .btn {
+     color: var(--bright-orange);
+ }
+ .middle-container {
+    background-color: var(--dark-cyan);
+    color: #fff;
+ }
+ .middle-container .btn {
+     color: var(--very-dark-cyan);
+ }
+ .bottom-container {
+    background-color: var(--very-dark-cyan);
+    color: #fff;
+    border-radius: 0 0 10px 10px;
+ }
+ .bottom-container .btn {
+     color: var(--very-dark-cyan);
+ }
+ .btn:hover {
     background-color: transparent;
     color: #fff;
 }
+ .container {
+     padding: 20px;
+     min-height: 100vh;
+ }
+ .card {
+     padding: 30px;
+ }
+ .card img {
+     margin-bottom: 25px;
+ }
+ .card p {
+    margin-bottom: 30px;
+ }
  .attribution { 
      font-size: 11px; 
      text-align: center;
 }
 .attribution a {
     color: hsl(228, 45%, 44%); 
+}
+@media (min-width:992px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        max-width: 900vh;
+        margin: auto;
+    }
+    .top-container {
+        border-radius: 10px 0 0 10px; 
+    }
+    .bottom-container {
+        border-radius: 0 10px 10px 0;
+    }
+    .card {
+        padding: 45px;
+    }
+    .card p {
+        margin-bottom: 80px;
+    }
 }
