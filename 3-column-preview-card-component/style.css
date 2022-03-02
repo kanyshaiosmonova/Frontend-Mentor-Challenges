@@ -108,11 +108,11 @@ p {
     margin: auto;
   }
 
-  .bright-orange {
+  .top-container {
     border-radius: 10px 0 0 10px;
   }
 
-  .very-dark-cyan {
+  .bottom-container {
     border-radius: 0 10px 10px 0;
   }
 
