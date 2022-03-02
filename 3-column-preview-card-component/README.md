@@ -5,7 +5,7 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/nftpreview-card-component-with-htmlcss-C4nqBq0wy)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/3column-preview-card-component-i7WwVTTxN)
 - Github Pages: [3-Column Preview Card Component](https://kanyshaiosmonova.github.io/Frontend-Mentor-Challenges/3-column-preview-card-component/index.html)
 
 
