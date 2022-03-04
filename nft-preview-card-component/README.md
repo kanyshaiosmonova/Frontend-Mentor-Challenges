@@ -48,7 +48,7 @@ Proud of this CSS code
 
 I've got inspiration from Thomas Sankara's solution on his [Youtube channel](https://www.youtube.com/watch?v=9bGbykdR4T8). Thanks to him I've learnt some new things and solved this challenge faster
 
-I tried to build out this order summary card component and get it looking as close to the design as possible.
+I tried to build out this nft preview card component and get it looking as close to the design as possible.
 
 ## Got feedback for me?
 

@@ -43,7 +43,7 @@ This is a solution to the Profile Card Component challenge on Frontend Mentor
 
 ## The challenge
 
-I tried to build out this order summary card component and get it looking as close to the design as possible.
+I tried to build out this profile  card component and get it looking as close to the design as possible.
 
 ## Got feedback for me?
 

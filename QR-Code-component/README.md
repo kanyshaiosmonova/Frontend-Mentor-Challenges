@@ -44,7 +44,7 @@ I've got inspiration from Thomas Sankara's solution on his [Youtube channel](htt
 
 ## The challenge
 
-I tried to build out this order summary card component and get it looking as close to the design as possible.
+I tried to build out this gr code  component and get it looking as close to the design as possible.
 
 ## Got feedback for me?
 
