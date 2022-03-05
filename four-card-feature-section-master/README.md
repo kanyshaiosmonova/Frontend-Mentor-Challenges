@@ -1,12 +1,12 @@
-# Frontend Mentor - Four Card Feature Component solution
+# Frontend Mentor - Four Card Feature Section solution
 
-This is a solution to the Four Card Feature Component challenge on Frontend Mentor. 
+This is a solution to the Four Card Feature Section challenge on Frontend Mentor. 
 Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ### Links
 
 - Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/3column-preview-card-component-i7WwVTTxN)
-- Github Pages: [Four Card Feature Component](https://kanyshaiosmonova.github.io/Frontend-Mentor-Challenges/four-card-feature-section-master/index.html)
+- Github Pages: [Four Card Feature Section](https://kanyshaiosmonova.github.io/Frontend-Mentor-Challenges/four-card-feature-section-master/index.html)
 
 
 ## My process
