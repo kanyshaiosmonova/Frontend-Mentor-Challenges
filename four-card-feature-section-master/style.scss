@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
-:root {
-    --red: hsl(0, 78%, 62%);
-    --cyan: hsl(180, 62%, 55%);
-    --orange: hsl(34, 97%, 64%);
-    --blue: hsl(212, 86%, 64%);
-    --very-dark-blue: hsl(234, 12%, 34%);
-    --grayish-blue: hsl(229, 6%, 66%);
-    --very-light-gray: hsl(0, 0%, 98%);
-}
+    $red: hsl(0, 78%, 62%);
+    $cyan: hsl(180, 62%, 55%);
+    $orange: hsl(34, 97%, 64%);
+    $blue: hsl(212, 86%, 64%);
+    $very-dark-blue: hsl(234, 12%, 34%);
+    $grayish-blue: hsl(229, 6%, 66%);
+    $very-light-gray: hsl(0, 0%, 98%);
 * {
     margin: 0;
     padding: 0;
@@ -15,8 +13,8 @@
 body {
     font-family: "Poppins", sans-serif;
     font-size: 15px;
-    background-color:var(--very-light-gray);
-    color: var(--grayish-blue);
+    background-color:$very-light-gray;
+    color: $grayish-blue;
 }
 .container {
     margin: 0 auto;
@@ -25,21 +23,22 @@ body {
 }
 header {
     text-align: center;
+    &__h2 {
+        font-size: 34px;
+        font-weight: 200;
+        color:$very-dark-blue;
+    }
+    &__h3 {
+        font-size: 34px;
+        font-weight: 600;
+        color: $very-dark-blue;
+    }
+    &__p {
+        max-width: 600px;
+        margin: 20px auto;
+    }
 }
-header h2 {
-    font-size: 34px;
-    font-weight: 200;
-    color:var(--very-dark-blue);
-}
-header h3 {
-    font-size: 34px;
-    font-weight: 600;
-    color: var(--very-dark-blue);
-}
-header p {
-    max-width: 600px;
-    margin: 20px auto;
-}
+
 .main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -56,17 +55,15 @@ header p {
 .box-text {
     text-align: left;
     padding-bottom: 50px;
-}
-.box-text h5 {
-    font-size: 20px;
-    color:var(--very-dark-blue);
-    margin-bottom: 10px;
-}
-.box-text p {
-    font-size: 15px;
+    &__h5 {
+        font-size: 20px;
+        color: $very-dark-blue;
+        margin-bottom: 10px;}
+    &__p {
+        font-size: 15px;}
 }
 .box1 {
-    border-top: 4px solid var(--cyan);
+    border-top: 4px solid $cyan;
     
 }
 .box-container {
@@ -75,13 +72,13 @@ header p {
     gap: 25px;
 }
 .box2 {
-    border-top: 4px solid var(--red);
+    border-top: 4px solid $red;
 }
 .box3 {
-    border-top: 4px solid var(--orange);
+    border-top: 4px solid $orange;
 }
 .box4 {
-    border-top: 4px solid var(--blue);
+    border-top: 4px solid $blue;
     display: flex;
 }
 .box1, .box4 {
@@ -91,9 +88,9 @@ header p {
 .attribution { 
     font-size: 11px; 
     text-align: center; 
-}
-.attribution a { 
-    color: hsl(228, 45%, 44%);
+    &__a {
+        color: hsl(228, 45%, 44%);
+    }
  }
  @media only screen and (max-width: 768px) {
     .main {
