@@ -24,6 +24,22 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 
 ### What I learned
 I've started actively using Sass compiler. This is new for me now. I think in the future I will use more advanced ways.
+Interesting way of organizing grid columns. That was new for me.👇👇👇
+```css
+.wrapper {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "a a" "b c";
+   }
+.box1 {
+    grid-area: a;
+}
+.box2 {
+    grid-area: b;
+}
+.box3{
+    grid-area: c;
+```
 
 ## Author
 
