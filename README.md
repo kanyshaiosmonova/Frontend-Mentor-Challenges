@@ -14,7 +14,7 @@ You can open each project and watch the project through the link or README.md
 
 ## Timeline
 
-|**Project💻**|**Made with**|**Github Pages:link:**|
+|**Project💻**|**Made with 🛠**|**Github Pages:link:**|
 |----------------------------|----------------------|----------------------------|
 |QR-Code Component|html/css|[Live Demo](https://kanyshaiosmonova.github.io/Frontend-Mentor-Challenges/QR-Code-component/index.html) |
 |NFT Preview Card Component Component|html/css|[Live Demo](https://kanyshaiosmonova.github.io/Frontend-Mentor-Challenges/nft-preview-card-component/index.html)|
