@@ -5,7 +5,7 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/3column-preview-card-component-i7WwVTTxN)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc/hub/single-price-grid-component-JYvTOx32A)
 - Github Pages: [Single Price Grid Component ](https://kanyshaiosmonova.github.io/Frontend-Mentor-Challenges/single-price-grid-component/index.html)
 
 
